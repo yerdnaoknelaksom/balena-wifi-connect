@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   wifi-connect:
-    image: balenablocks/wifi-connect
+    image: balenablocks/wifi-connect:2.0.6
     network_mode: host
     privileged: true
     labels:
